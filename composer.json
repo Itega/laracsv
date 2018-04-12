@@ -1,15 +1,15 @@
 {
-    "name": "usmanhalalit/laracsv",
-    "description": "A Laravel package to easily generate CSV files from Eloquent model.",
-    "homepage": "https://github.com/usmanhalalit/laracsv",
+    "name": "itega/laracsv-utf8",
+    "description": "A fork of usmanhalalit's Laravel package to easily generate CSV files from Eloquent model.",
+    "homepage": "https://github.com/itega/laracsv",
     "keywords": ["laravel", "csv", "eloquent", "export"],
     "license": "MIT",
     "minimum-stability": "dev",
     "authors":
     [
         {
-            "name": "Muhammad Usman",
-            "email": "hi@usman.it",
+            "name": "Julien ZOLLI",
+            "email": "julien.zolli@viacesi.fr",
             "role": "Developer"
         }
     ],
