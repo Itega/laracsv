@@ -33,6 +33,8 @@ class Export
     public function __construct(LeagueCsvWriter $writer = null)
     {
         $this->csv = $writer ?: Writer::createFromFileObject(new SplTempFileObject);
+        $this->csv->setEncodingFrom("UTF-8");
+        $this->csv->setOutputBOM(Reader::BOM_UTF8);
     }
 
     /**
